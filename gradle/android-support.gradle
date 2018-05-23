@@ -176,13 +176,13 @@ android {
                             .replaceAll("[^a-zA-Z0-9\\.]", "")
         }
 
-        // default minSdkVersion to API 15 if not provided
+        // default minSdkVersion to API 21 if not provided
         minSdkVersion ( project.hasProperty('android.minSdkVersion')
-                ? Integer.parseInt(project.property('android.minSdkVersion')) : 15 )
+                ? Integer.parseInt(project.property('android.minSdkVersion')) : 21 )
 
-        // default targetSdkVersion to API 23, if not provided
+        // default targetSdkVersion to API 27, if not provided
         targetSdkVersion ( project.hasProperty('android.targetSdkVersion')
-                ? Integer.parseInt(project.property('android.targetSdkVersion')) : 23 )
+                ? Integer.parseInt(project.property('android.targetSdkVersion')) : 27 )
 
         // default versionCode o 1 if not provided
         versionCode ( project.hasProperty('android.versionCode')

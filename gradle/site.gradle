@@ -1850,7 +1850,7 @@ task javadocAggregate(type: Javadoc)  {
             classpath << (project.files(j));
 
 
-        compileSdk = 'Google Inc.:Google APIs:23';
+        compileSdk = '27';
         jar = ""
         try {
             String csdk = compileSdk

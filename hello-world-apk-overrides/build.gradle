@@ -49,8 +49,9 @@ android {
     //only if you apply the gradle fury plugin BEFORE the android {} block!!!
 
     defaultConfig {
+        flavorDimensions "default"
         applicationId 'com.chrisdoyle.alex.wuz.here'
-        minSdkVersion 16
+        minSdkVersion 21
         versionCode 9999
         versionName "OU812"
     }

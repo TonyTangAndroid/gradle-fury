@@ -16,7 +16,7 @@ apply plugin: 'com.android.application'
 apply from: "${rootDir}/gradle/android-support.gradle"
 
 android {
-    compileSdkVersion 'Google Inc.:Google APIs:23'
+    compileSdkVersion 27
 
 }
 
@@ -27,6 +27,6 @@ dependencies {
 
     compile 'com.google.android.gms:play-services-maps:8.+'
 
-    compile 'com.android.support:support-v4:23.+'
-    compile 'com.android.support:appcompat-v7:23.+'
+    compile 'com.android.support:support-v4:27.1.1'
+    compile 'com.android.support:appcompat-v7:27.1.1'
 }

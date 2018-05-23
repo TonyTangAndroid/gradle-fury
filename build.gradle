@@ -1,8 +1,9 @@
 buildscript {
 
-	ext.kotlin_version = '1.0.5-2'	//only used for the test cases, not a gradle-fury dependency
+	ext.kotlin_version = '1.1.51'	//only used for the test cases, not a gradle-fury dependency
     repositories {
         jcenter()
+        google()
         mavenCentral()
         mavenLocal()
     }
@@ -42,6 +43,8 @@ allprojects  {
         jcenter()
         mavenCentral()
         mavenLocal()
+        google()
+
     }
 
     tasks.withType(JavaCompile) {
